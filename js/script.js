@@ -25,3 +25,47 @@ $(window).scroll(function(){
     }
     lastScrollTop = st;
 });
+
+$("#boxHistoryJS").click(function(){
+    $("#historyJS").removeClass("notshowing");
+    $("#whatIsUsedJS").addClass("notshowing");
+    $("#caratJS").addClass("notshowing");
+    $("#proConJS").addClass("notshowing");
+});
+
+$("#closeHistoryJS").click(function(){
+    $("#historyJS").addClass("notshowing");
+});
+
+$("#boxWhatIsUsedJS").click(function(){
+    $("#whatIsUsedJS").removeClass("notshowing");
+    $("#historyJS").addClass("notshowing");
+    $("#caratJS").addClass("notshowing");
+    $("#proConJS").addClass("notshowing");
+});
+
+$("#closeWhatIsUsedJS").click(function(){
+    $("#whatIsUsedJS").addClass("notshowing");
+});
+
+$("#boxCaratJS").click(function(){
+    $("#caratJS").removeClass("notshowing");
+    $("#whatIsUsedJS").addClass("notshowing");
+    $("#historyJS").addClass("notshowing");
+    $("#proConJS").addClass("notshowing");
+});
+
+$("#closeCaratJS").click(function(){
+    $("#caratJS").addClass("notshowing");
+});
+
+$("#boxProConJS").click(function(){
+    $("#proConJS").removeClass("notshowing");
+    $("#whatIsUsedJS").addClass("notshowing");
+    $("#historyJS").addClass("notshowing");
+    $("#caratJS").addClass("notshowing");
+});
+
+$("#closeProConJS").click(function(){
+    $("#proConJS").addClass("notshowing");
+});
